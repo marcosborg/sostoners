@@ -44,7 +44,6 @@ class UpdateRepairRequest extends FormRequest
             'model' => [
                 'string',
                 'max:255',
-                'required',
             ],
             'status_id' => [
                 'required',
